@@ -1,0 +1,37 @@
+{
+    "name": "playwrite",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "cucumber-js --require-module ts-node/register",
+        "allure:generate": "allure generate allure-results --clean",
+        "allure:serve": "allure serve allure-results"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@cucumber/cucumber": "^10.7.0",
+        "@playwright/test": "^1.44.1",
+        "@types/jasmine": "^5.1.4",
+        "@types/jest": "^29.5.12",
+        "@types/node": "^20.12.12",
+        "allure-commandline": "^2.29.0",
+        "cucumber-pretty": "^6.0.1",
+        "jasmine": "^5.1.0",
+        "jasmine-allure-reporter": "^1.0.2",
+        "jasmine-spec-reporter": "^7.0.0",
+        "playwright": "^1.44.1",
+        "ts-node": "^10.9.2"
+    },
+    "dependencies": {
+        "@types/cucumber": "^7.0.0",
+        "allure-cucumberjs": "^2.15.1",
+        "allure-playwright": "^2.15.1",
+        "csv-parser": "^3.0.0",
+        "cucumber": "^6.0.7",
+        "cucumber-html-reporter": "^6.0.0",
+        "typescript": "^5.4.5"
+    },
+    "description": ""
+}

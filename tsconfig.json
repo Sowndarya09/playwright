@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "outDir": "./dist", 
+    "rootDir": "./src/tests/step-definitions/", 
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src/tests/step-definitions/login.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
